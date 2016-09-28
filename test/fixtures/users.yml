@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+first_user:
+  name: User1
+  password_hash: <%= BCrypt::Engine.hash_secret('password', '$2a$10$xKPXy2QabH6ThBjo7gNB8O') %>
+  password_salt: $2a$10$xKPXy2QabH6ThBjo7gNB8O
+  role: 1
+  id: 1
+
+second_user:
+  name: MyString
+  password_hash: MyString
+  password_salt: MyString
+  role: 1
+  id: 2
